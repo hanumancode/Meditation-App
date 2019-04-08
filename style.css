@@ -11,7 +11,7 @@
     justify-content: space-evenly;
 }
 
-.time-select, .sound-picker {
+.time-select, .sound-picker, .player-container {
     height: 80%;
     flex: 1;
 }
@@ -22,4 +22,8 @@
 
 .sound-picker {
     background: lightgreen;
+}
+
+.player-container {
+    background: lightgray;
 }
