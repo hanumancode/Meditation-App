@@ -33,19 +33,6 @@
     pointer-events: none;
 }
 
-
-.time-select {
-    background: lightblue;
-}
-
-.sound-picker {
-    background: lightgreen;
-}
-
-.player-container {
-    background: lightgray;
-}
-
 .time-display {
     position: absolute;
     bottom: 10%;
@@ -54,5 +41,9 @@
 }
 
 video {
-    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -2;
 }
